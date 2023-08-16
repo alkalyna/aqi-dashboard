@@ -15,8 +15,7 @@ st.title(APP_TITLE)
 st.caption(APP_SUB_TITLE)
 
 # Memasukkan gambar logo di sidebar
-logo = Image.open(r"C:\Users\rifqi\Desktop\AQI\asset\yuksinau v1.png")
-self_pict = Image.open(r"C:\Users\rifqi\Desktop\AQI\asset\pict.png")
+logo = Image.open("asset\yuksinau v1.png")
 st.sidebar.image(logo)
 
 
